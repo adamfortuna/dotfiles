@@ -149,4 +149,4 @@ if filereadable(expand("~/.vimrc.local"))
 endif
 
 set guioptions=aAce
-set transparency=5
+set transparency=0

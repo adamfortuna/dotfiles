@@ -19,8 +19,8 @@ alias gs='git status'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 
 # rails
-alias sc='script/console'
-alias ss='script/server'
+alias sc='rails console'
+alias ss='rails server'
 alias sg='script/generate'
 alias a='autotest -rails'
 alias tlog='tail -f log/development.log'

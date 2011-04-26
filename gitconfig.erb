@@ -3,6 +3,7 @@
 	email = <%= print("Your Email: "); STDOUT.flush; STDIN.gets.chomp %>
 [alias]
 	co = checkout
+	datetag = tag `date \"+%Y-%m-%d-%H-%M\"` && echo `date \"+%Y-%m-%d-%H-%M\"`
 [color]
 	diff = auto
 	status = auto

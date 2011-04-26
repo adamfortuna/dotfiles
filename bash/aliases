@@ -13,3 +13,12 @@ function railsapp {
 
 # misc
 alias reload='. ~/.bash_profile'
+
+# l
+alias l='cd ~/Sites/app/lineofthought.com;rvm use 1.9.2;'
+
+# b
+alias b='cd /Users/adam/Sites/enylabs/exchange;rvm use ree-1.8.7;'
+
+# st
+alias st='git status'

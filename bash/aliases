@@ -1,24 +1,10 @@
-. ~/.zsh/aliases
+. ~/.dotfiles/zsh/aliases
 
-# changing directory to code project
-function c { cd ~/code/$1; }
-
-# alternative to "rails" command to use templates
-function railsapp {
-  template=$1
-  appname=$2
-  shift 2
-  rails $appname -m http://github.com/ryanb/rails-templates/raw/master/$template.rb $@
-}
-
-# misc
 alias reload='. ~/.bash_profile'
-
-# l
-alias l='cd ~/Sites/app/lineofthought.com;rvm use 1.9.2;'
-
-# b
-alias b='cd /Users/adam/Sites/enylabs/exchange;rvm use ree-1.8.7;'
-
-# st
+alias l='ls -la'
+alias e='cd /Users/adam/Sites/enylabs;'
 alias st='git status'
+alias be='bundle exec'
+alias ey='EYRC=.eyrc ey'
+alias brspec='bundle exec rspec'
+alias brake='bundle exec rake'

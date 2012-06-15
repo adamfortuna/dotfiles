@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/adam/Sites/enylabs/RSpecContent/src/level4'
+let g:netrw_dirhist_2='/Users/adam/Sites/enylabs/avalara/lib/avalara/request'
+let g:netrw_dirhist_3='/Users/adam/.dotfiles'
+let g:netrw_dirhist_4='/Users/adam/Sites/enylabs/Shopgoodwill/spec/mailers'

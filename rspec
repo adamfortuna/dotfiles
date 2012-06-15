@@ -1,3 +1,4 @@
---require fuubar
---format Fuubar
+--drb
 --color
+--format documentation
+--profile

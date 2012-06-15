@@ -4,7 +4,6 @@
 gem: --no-ri --no-rdoc
 :sources: 
 - http://rubygems.org
-- http://gems.izea.com
 :backtrace: false
 :verbose: true
 :benchmark: false

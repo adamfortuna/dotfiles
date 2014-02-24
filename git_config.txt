@@ -1,0 +1,29 @@
+git config
+
+user.name=Adam Fortuna
+user.email=adam@fortuna.name
+alias.co=checkout
+alias.st=status
+alias.datetag=tag `date "+%Y-%m-%d-%H-%M"` && echo `date "+%Y-%m-%d-%H-%M"`
+alias.di=diff
+alias.aa=add --all
+alias.head=log -1
+alias.lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.ui=auto
+core.excludesfile=/Users/adam/.gitignore
+core.editor=subl -w
+core.autocrlf=input
+core.quotepath=false
+apply.whitespace=nowarn
+format.pretty=%C(yellow)%h%Creset %s %C(red)(%cr)%Creset
+github.user=adamfortuna
+github.token=xxx
+push.default=tracking
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true

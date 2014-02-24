@@ -1,3 +1,3 @@
-export PATH="$HOME/.rbenv/bin:/Users/adam/.homebrew/bin:/Users/adamfortuna/.homebrew/share/npm/bin:/Users/adamfortuna/.homebrew/lib:~/.homebrew/bin:~/.rvm/bin:/usr/local/bin:/usr/local/git/bin:~/.homebrew/Cellar/node/0.3.1/bin:$PATH"
+export PATH="/usr/local/bin:/Users/adam/.homebrew/bin:/usr/bin:~/.rbenv/bin:/Users/adamfortuna/.homebrew/share/npm/bin:/Users/adamfortuna/.homebrew/lib:~/.homebrew/bin:/usr/local/git/bin:~/.homebrew/Cellar/node/0.3.1/bin:/Users/adam/.homebrew/share/npm/bin:/Users/adam/.homebrew/Cellar/python/2.7/bin:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:/Users/adamfortuna/.homebrew/share/npm/bin:$MANPATH"
 export NODE_PATH="/Users/adamfortuna/.homebrew/lib/node"

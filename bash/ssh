@@ -20,6 +20,7 @@ function test_identities {
         ssh-add ~/.ssh/github
         ssh-add ~/.ssh/identity.heroku.envylabs
         ssh-add ~/.ssh/identity.heroku.me
+        ssh-add ~/.ssh/envylabs
         
         # $SSH_AUTH_SOCK broken so we start a new proper agent
         if [ $? -eq 2 ];then

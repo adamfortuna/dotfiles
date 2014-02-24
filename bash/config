@@ -1,2 +1,2 @@
 PS1="\W\$(__git_ps1) \$ "
-export EDITOR="vim"
+export EDITOR="subl"

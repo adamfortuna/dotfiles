@@ -6,4 +6,5 @@ export RUBY_HEAP_FREE_MIN=500000
 export SKIP_LEVEL_CHECK=true
 
 export PROJECT_JRUBY_OPTS=( --1.9 )
+export JRUBY_OPTS="--1.9"
 export USE_MOCKSMTP=true
